@@ -11,7 +11,7 @@
     <div id="container">
       <header><h1>Music CDs</h1></header>
       <section>
-        <form>
+        <form id="cd-form">
           <div>
             <label for="author">Author</label>
             <input type="text" id="author" />
@@ -28,8 +28,21 @@
         <input type="submit" value="Add" />
       </section>
       <section>
-        <ul></ul>
-      </section>
+  <table id="cd-table">
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Title</th>
+        <th>Year</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="cd-list">
+      <!-- New rows will be added here -->
+    </tbody>
+  </table>
+</section>
+
     </div>
   </body>
 </html>
